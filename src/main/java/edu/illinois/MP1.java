@@ -1,10 +1,11 @@
-import java.io.File;
-import java.lang.reflect.Array;
+package edu.illinois;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.*;
+import java.util.Random;
 
 public class MP1 {
+	
     Random generator;
     String userName;
     String inputFileName;
